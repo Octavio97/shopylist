@@ -1,0 +1,36 @@
+<!-- Encabezado -->
+<app-header [title]="data" [ruta]="['/categoria/subcategorias', id]"></app-header>
+
+  <!-- Barra de busqueda -->
+  <ion-searchbar (ionChange)="buscar($event)" [placeholder]="textos.search" animated></ion-searchbar>
+
+  <ion-content>
+  <!-- Lista de articulos -->
+  <ion-list>
+    <ion-item *ngFor="let item of articulos | filtro: textoBuscar: 'name'">
+      <img slot="start" [src]="item.image" alt="fv" style="width: 24px; height: 24px;">
+      <ion-checkbox slot="end" color="tertiary"></ion-checkbox>
+      <ion-label>{{ item.name }}</ion-label>
+    </ion-item>
+  </ion-list>
+
+  <!-- Scroll infinito -->
+  <!-- <app-infinite-scroll (ionInfinite)="loadData($event)"></app-infinite-scroll> -->
+
+  <!-- Boton agregar -->
+  <ion-fab vertical="bottom" horizontal="start" slot="fixed">
+    <ion-fab-button color="success">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+    <ion-fab-list side="top">
+      <ion-chip (click)="alert()">
+        <ion-label color="success">{{ textos.alerts[0].header }}</ion-label>
+      </ion-chip>
+    </ion-fab-list>
+  </ion-fab>
+
+  <div>
+    <h1>&nbsp;</h1>
+  </div>
+  
+</ion-content>

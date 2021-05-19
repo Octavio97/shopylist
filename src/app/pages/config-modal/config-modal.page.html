@@ -1,0 +1,29 @@
+<ion-header no-border translucent>
+  <ion-toolbar>
+    <ion-buttons slot="start" (click)="cerrarConfig()">
+      <ion-icon name="arrow-undo"></ion-icon>
+    </ion-buttons>
+    <ion-title>{{ data.name }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-item>
+    <ion-icon [name]="data.settings[0].image" slot="start"></ion-icon>
+    <ion-label>{{ data.settings[0].name }}</ion-label>
+    <ion-select interface="action-sheet" [placeholder]="language[app.language].name" (ionChange)="setLanguage($event)">
+      <ion-select-option [value]="language[0].languageId" (click)="setLanguage(language[0].languageId)">{{ language[0].name }}</ion-select-option>
+      <ion-select-option [value]="language[1].languageId" (click)="setLanguage(language[1].languageId)">{{ language[1].name }}</ion-select-option>
+      <ion-select-option [value]="language[2].languageId" (click)="setLanguage(language[2].languageId)">{{ language[2].name }}</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <ion-item>
+    <ion-icon [name]="data.settings[1].image" slot="start"></ion-icon>
+    <ion-label>{{ data.settings[1].name }}</ion-label>
+    <ion-toggle [checked]="app.darkMode" name="darkmode" (ionChange)="setDarkMode($event)"></ion-toggle>
+  </ion-item>
+  <ion-item>
+    <ion-icon slot="start" [name]="data.settings[2].image"></ion-icon>
+    <ion-label>{{ data.settings[2].name }}</ion-label>
+  </ion-item>
+</ion-content>

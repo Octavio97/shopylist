@@ -1,5 +1,7 @@
 {
   "name": "shopylist",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -1,0 +1,11 @@
+<ion-header no-border translucent>
+  <ion-toolbar>
+    <ion-buttons slot="start" *ngIf="ruta !== '/'">
+      <ion-back-button [defaultHref]="ruta" text="Regresar" color="success"></ion-back-button>
+    </ion-buttons>
+    <ion-buttons slot="end" (click)="abrirConfig()">
+      <i class="fas fa-cog fa-2x"></i>
+    </ion-buttons>
+    <ion-title text-capitalize>{{ titulo }}</ion-title>
+  </ion-toolbar>
+</ion-header>

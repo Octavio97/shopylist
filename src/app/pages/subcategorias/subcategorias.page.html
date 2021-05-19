@@ -1,0 +1,19 @@
+<!-- Encabezado -->
+<app-header [titulo]="data" ruta="/categoria"></app-header>
+
+<ion-content> 
+<!-- Subcategorias -->
+  <ion-card color="secondary" *ngFor="let item of subcategorias">
+    <div [routerLink]="['articulos/', item.subId]">
+      <ion-card-header>
+        <ion-card-title>{{ item.name }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content style="text-align: right;">
+        <img [src]="item.image" alt="fv" style="width: 80px; height: 80px;">
+      </ion-card-content>
+    </div>
+  </ion-card>
+
+  <!-- Scroll infinito -->
+  <app-infinite-scroll (ionInfinite)="loadData($event)"></app-infinite-scroll>
+</ion-content>

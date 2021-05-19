@@ -1,0 +1,34 @@
+<!-- Encabezado -->
+<app-header [titulo]="data.name" ruta="/"></app-header>
+<!-- <ion-header no-border translucent>
+  <ion-toolbar>
+    <ion-title>{{ data.name }}</ion-title>
+    <ion-buttons slot="end" (click)="abrirConfig()">
+      <i class="fas fa-cog fa-2x"></i>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header> -->
+
+<ion-content>
+  <!-- Boton de agregar  -->
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="success" routerLink="/categoria">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  
+  <!-- Listas -->
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title color="success">Lista del super</ion-card-title>
+    </ion-card-header>
+    <ion-card-content style=" text-align: justify">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo in veritatis veniam recusandae dolor. 
+      Sunt nostrum reprehenderit eius explicabo quos dolore amet a, dolorem eaque. Error ut esse beatae praesentium?
+    </ion-card-content>
+  </ion-card>
+  
+  <!-- Scroll infinito -->
+  <app-infinite-scroll (ionInfinite)="loadData($event)"></app-infinite-scroll>
+  
+  </ion-content>
