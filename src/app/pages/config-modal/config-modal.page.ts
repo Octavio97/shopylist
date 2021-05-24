@@ -17,7 +17,11 @@ export class ConfigModalPage implements OnInit {
 
   constructor(private idioma: LanguageService, private modalCtlr: ModalController) { }
 
-  ngOnInit() {
+  ngOnInit() {  }
+
+  ngAfterContentChecked(): void {
+    //Called after every check of the component's or directive's content.
+    //Add 'implements AfterContentChecked' to the class.
     this.data = this.idioma.getPage3();
     this.language = this.idioma.getLanguage();
     this.app = this.idioma.getApp();
@@ -28,11 +32,13 @@ export class ConfigModalPage implements OnInit {
   }
 
   setLanguage(evento) {
-    this.idioma.setData(evento.detail.value);
+    this.app.language = evento.detail.value
+    this.idioma.changeData(this.app);
+    this.idioma.setAppLanguage(this.app.language);
   }
 
   setDarkMode(evento) {
-    this.idioma.setDarkMode(evento.detail.value);
+    this.app.darkMode = evento.detail.checked
+    this.idioma.changeData(this.app);
   }
-
 }

@@ -1,11 +1,10 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import spanish from 'src/assets/texts/spanish.json';
 import english from 'src/assets/texts/english.json';
 import french from 'src/assets/texts/french.json';
 import { App } from '../models/app.model';
-import config from 'src/app/app.json'
 import { File } from '@ionic-native/file/ngx';
+import { Platform } from '@ionic/angular';
 
 @Injectable({
   providedIn: 'root'
@@ -14,10 +13,9 @@ export class LanguageService{
 
 idioma: any;
 app: App;
+  constructor(private file: File, private plt: Platform, ) { this.file = new File(); this.app = { language: 0, darkMode: true };}
 
-  constructor(private http: HttpClient, private file: File) { }
-
-    setData(i){
+    setAppLanguage(i: number){
         switch (i) {
             case 0:
                 this.idioma = spanish;
@@ -36,16 +34,8 @@ app: App;
         }
     }
     
-    getData() {
+    getAppLanguage() {
         return this.idioma;
-    }
-
-    getLanguage() {
-        return this.idioma[2].settings[0].languages;
-    }
-
-    getCategoria() {
-        return this.idioma[1].categories;
     }
     
     getSubcategories(id: any) {
@@ -73,29 +63,86 @@ app: App;
     }
 
     getLists () {
-        
+        this.file.readAsText(this.file.dataDirectory + 'data/', 'list.json')
+        .then(res => {
+            this.app = JSON.parse(res);
+        })
+        .catch(error => {
+            console.log('Error al leer archivo', error)
+        });
     }
 
     getApp() {
         return this.app;
     }
 
-    setApp() {
-        this.app = config;
+    // setApp() {
+    //     this.app = config;
+    // }
+
+    changeData(value: App) {
+        // si hay una carpeta sobreescribe en el archivo existente de configuracion
+        this.file.writeExistingFile(this.file.dataDirectory + 'data/', 'app.json', JSON.stringify(value))
+        .then(res => {
+            this.loadData();
+        })
+        // ver error al escribir archivo de configuracion existente
+        .catch(err => {
+            console.log('Error de escribir archivo existente', err);
+        });
     }
 
-    setDarkMode(value: boolean) {
-        if (value === true) {
-            console.log(this.file.dataDirectory);
-            this.file.writeFile(this.file.dataDirectory, 'test.json', 'holapapu', {replace: true})
-            .then(_ => console.log('Directory exists'))
-            .catch(err => console.log('Directory doesn\'t exist'));
-        }
-        else {
-            console.log(this.file.dataDirectory);
-            this.file.writeFile(this.file.dataDirectory, 'test.json', 'holapapu', {replace: true})
-            .then(_ => console.log('Directory exists'))
-            .catch(err => console.log('Directory doesn\'t exist'));
-        }
+    loadData() {
+        this.plt.ready()
+        .then(() => {
+            this.file.listDir(this.file.dataDirectory, 'data')
+            .then(res => {
+                this.readFile('app.json');
+            })
+            .catch(err => {
+                // crea una carpeta con el nombre data
+                this.file.createDir(this.file.dataDirectory, 'data', false)
+                .then(res => {
+                   this.writeFile('app.json');
+                })
+                // error al crear directorio
+                .catch(err => {
+                    console.log('Error al crear directorio', err);
+                });
+            });
+        })
+        .catch(err => {
+            console.log('Error al cargar plataforma', err);
+        });
+    }
+
+    readFile(file) {
+        this.file.readAsText(this.file.dataDirectory + 'data/', file)
+        .then(res => {
+            this.app = JSON.parse(res);
+        })
+        .catch(error => {
+            this.writeFile('app.json');
+        });
+    }
+
+    writeFile(file) {
+        // crea un nuevo archivo de configuracion
+        this.file.writeFile(this.file.dataDirectory + 'data/', file, '{ language: 0, darkMode: true }')
+        .then(res => {
+            this.readFile('app.json');
+        })
+        // si no pudo cargar el archivo
+        .catch(err => {
+            console.log('Error de escribir nuevo archivo', err);
+        });
+    }
+
+    getLanguage() {
+        return this.idioma[2].settings[0].languages;
+    }
+
+    getCategoria() {
+        return this.idioma[1].categories;
     }
 }
