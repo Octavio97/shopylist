@@ -1,0 +1,19 @@
+<ion-header no-border translucent>
+  <ion-toolbar>
+    <ion-buttons slot="start" (click)="cerrarConfig()">
+      <ion-icon name="arrow-undo"></ion-icon>
+    </ion-buttons>
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item (click)="define(true)">
+      <ion-label><ion-icon slot="start" name="add"></ion-icon> {{ 'page4.alerts.0.header' | translate }}</ion-label>
+    </ion-item>
+    <ion-item *ngFor="let item of this.listas" (click)="define(false, item)">
+      <ion-label>{{ item.name }}</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,26 @@
+<!-- Encabezado -->
+<app-header [titulo]="'page2.name' | translate" ruta="/home"></app-header>
+
+<ion-content>
+  <!-- Categorias -->
+  <div #card class="card">
+    <div *ngFor="let item of 'page2.categories' | translate">
+      <ion-card color="primary" *ngIf="item.catId !== 10" [routerLink]="['/subcategorias', item.catId]">
+        <ion-card-header>
+          <ion-card-title>{{ item.name }}</ion-card-title>
+        </ion-card-header>
+        <ion-card-content style="text-align: right;">
+          <img [src]="item.image" alt="fv" style="width: 80px; height: 80px;">
+        </ion-card-content>
+      </ion-card>
+    </div>
+    <ion-card #card class="card"  color="primary" (click)="verifyOtherArticle()">
+      <ion-card-header>
+        <ion-card-title>{{ 'page2.categories.10.name' | translate }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content style="text-align: right;">
+        <img [src]="'page2.categories.10.image' | translate" alt="fv" style="width: 80px; height: 80px;">
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

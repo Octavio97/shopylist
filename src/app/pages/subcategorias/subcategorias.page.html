@@ -1,0 +1,18 @@
+<!-- Encabezado -->
+<app-header [titulo]="'page2.categories.' + this.id + '.name' | translate" ruta="/categoria"></app-header>
+
+<ion-content> 
+  <!-- Subcategorias -->
+
+  <div #card class="card">
+    <ion-card *ngFor="let item of 'page2.categories.' + this.id + '.subcategories' | translate" color="secondary" [routerLink]="['/articulos', this.id, item.subId]">
+      <ion-card-header>
+        <ion-card-title>{{ item.name }}</ion-card-title>
+      </ion-card-header>
+      <ion-card-content style="text-align: right;">
+        <img [src]="item.image" alt="fv" style="width: 80px; height: 80px;">
+      </ion-card-content>
+    </ion-card>
+  </div>
+  
+</ion-content>

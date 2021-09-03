@@ -1,0 +1,20 @@
+[
+    {
+        "listId": 0,
+        "name": "",
+        "articles":
+        [
+            {
+                "catId": 0,
+                "subId": 0,
+                "artId": 0,
+                "price": 0,
+                "typePrice  id del Precio": 0,
+                "amount": 0,
+                "name": "nombre del nuevo articulo",
+                "nameAmount id del tipo de medida": 0,
+                "typeAmount": "peso(gr, kg), volumen(lt, gal), longitud(cm, m) unidad(pz)"
+            }
+        ]
+    }
+]   

@@ -1,0 +1,30 @@
+<ion-header no-border translucent>
+  <ion-toolbar>
+    <ion-buttons slot="start" (click)="cerrarConfig()">
+      <ion-icon name="arrow-undo"></ion-icon>
+    </ion-buttons>
+    <ion-title>{{ 'page3.name' | translate }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- Idioma -->
+  <ion-item>
+    <ion-icon [name]="'page3.settings.0.image' | translate" slot="start"></ion-icon>
+    <ion-label>{{ 'page3.settings.0.name' | translate }}</ion-label>
+    <ion-select interface="action-sheet" [placeholder]="'page3.settings.0.languages.' + app.language + '.name' | translate" (ionChange)="setLanguage($event)">
+      <ion-select-option *ngFor="let item of 'page3.settings.0.languages' | translate" [value]="item.languageId">{{ item.name }}</ion-select-option>
+    </ion-select>
+  </ion-item>
+  <!-- Modo obscuro -->
+  <ion-item>
+    <ion-icon [name]="'page3.settings.1.image' | translate" slot="start"></ion-icon>
+    <ion-label>{{ 'page3.settings.1.name' | translate }}</ion-label>
+    <ion-toggle [checked]="app.darkMode" name="darkmode" (ionChange)="setDarkMode($event)"></ion-toggle>
+  </ion-item>
+  <!-- Acerca de la aplicación -->
+  <ion-item (click)="about()">
+    <ion-icon slot="start" [name]="'page3.settings.2.image' | translate"></ion-icon>
+    <ion-label>{{ 'page3.settings.2.name' | translate }}</ion-label>
+  </ion-item>
+</ion-content>

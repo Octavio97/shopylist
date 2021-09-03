@@ -1,0 +1,42 @@
+<!-- Encabezado -->
+<app-header [title]="'page2.categories.' + this.id + '.subcategories.' + this.id2 + '.name'| translate" [ruta]="['/categoria/subcategorias', id]"></app-header>
+
+<!-- Barra de busqueda -->
+<ion-toolbar>
+  <ion-searchbar (ionChange)="buscar($event)" [placeholder]="'page4.search' | translate" animated></ion-searchbar>
+</ion-toolbar>
+
+  <ion-content>
+    <!-- Lista de articulos -->
+    <div #card class="card">
+      <ion-list>
+        <ion-virtual-scroll [items]="'page2.categories.' + this.id + '.subcategories.' + this.id2 + '.articles' | translate | filtro: textoBuscar: 'name'">
+          <ion-item *virtualItem="let item">
+            <ion-img slot="start" [src]="item.image" alt="fv" style="width: 24px; height: 24px;"></ion-img>
+            <ion-label>{{ item.name }}</ion-label>
+            <ion-checkbox color="tertiary" (ionChange)="datosLista($event, item)"></ion-checkbox>
+          </ion-item>
+        </ion-virtual-scroll>
+      </ion-list>
+    </div>
+   
+    <!-- Boton agregar -->
+    <ion-fab vertical="bottom" horizontal="start" slot="fixed" (click)="listModal()">
+      <ion-fab-button color="success">
+        <ion-icon name="add"></ion-icon>
+      </ion-fab-button>
+    </ion-fab>
+
+    <h1>&nbsp;</h1>
+
+    <div *ngIf="!listas">
+      <ion-list>
+        <ion-item >
+          <ion-skeleton-text slot="start" style="width: 24px; height: 24px;" animated></ion-skeleton-text>
+          <ion-skeleton-text></ion-skeleton-text>
+          <ion-skeleton-text slot="end"></ion-skeleton-text>
+        </ion-item>
+      </ion-list>
+    </div>
+  
+</ion-content>

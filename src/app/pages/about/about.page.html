@@ -1,0 +1,19 @@
+<ion-header no-border translucent>
+  <ion-toolbar>
+    <ion-buttons slot="start" (click)="cerrarConfig()">
+      <ion-icon name="arrow-undo"></ion-icon>
+    </ion-buttons>
+    <ion-title>{{ title }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <h1 [innerText]="text[2].name"></h1>
+  <div [innerHTML]="text[2].value" style="text-align: justify;"></div>
+  <h3 [innerText]="text[3].name"></h3>
+  <div [innerHTML]="text[3].value"></div>
+  <p [innerText]="text[0].name" style="text-align: center; font-size: x-small; color: gray;"></p>
+  <p [innerText]="text[0].value" style="text-align: center; font-size: x-small; color: gray;"></p>
+  <p [innerText]="text[1].name" style="text-align: center; font-size: x-small; color: gray;"></p>
+  <p [innerText]="text[1].value" style="text-align: center; font-size: x-small; color: gray;"></p>
+</ion-content>

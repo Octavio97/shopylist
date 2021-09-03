@@ -1,0 +1,141 @@
+<ion-header no-border translucent>
+  <ion-toolbar>
+    <ion-buttons slot="start" (click)="cerrarModal()">
+      <ion-icon name="arrow-undo"></ion-icon>
+    </ion-buttons>
+    <ion-buttons slot="end" *ngIf="this.isEdit">
+      <ion-button color="danger" (click)="deleteList(this.listaPrev.listId)">
+        <ion-icon name="trash-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>{{ this.listaPrev.name }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- <ion-list>
+    <ion-item-sliding side="end" *ngFor="let item of this.listaPrev.articles">
+      <ion-item>
+        <ion-img *ngIf="item.image" slot="start" [src]="'page2.categories.' + item.catId + '.subcategories.' + item.subId + '.articles.' + item.artId + '.image' | translate" alt="fv" style="width: 24px; height: 24px;"></ion-img>
+        <ion-img *ngIf="!item.image" slot="start" src="/assets/icon/carro-compra.png" alt="fv" style="width: 24px; height: 24px;"></ion-img>
+        <ion-label *ngIf="item.image">{{ 'page2.categories.' + item.catId + '.subcategories.' + item.subId + '.articles.' + item.artId + '.name' | translate }}</ion-label>
+        <ion-label *ngIf="!item.image">{{ item.name }}</ion-label>
+
+        <ion-grid fixed>
+          <ion-row>
+            <ion-col size="4">
+              <ion-input type="number" [placeholder]="'page4.alerts.11.subtitle' | translate" required max="8" [(ngModel)]="item.price"></ion-input>
+            </ion-col>
+            <ion-col size="8">
+              <ion-select [placeholder]="'page3.settings.3.name' | translate" [(ngModel)]="item.typePrice">
+                <ion-select-option [value]="'page3.settings.3.money.0.moneyId'">{{ 'page3.settings.3.money.0.name' | translate }}</ion-select-option>
+                <ion-select-option [value]="'page3.settings.3.money.1.moneyId'">{{ 'page3.settings.3.money.1.name' | translate }}</ion-select-option>
+                <ion-select-option [value]="'page3.settings.3.money.2.moneyId'">{{ 'page3.settings.3.money.2.name' | translate }}</ion-select-option>
+              </ion-select>
+            </ion-col>
+          </ion-row>
+          <ion-row>
+            <ion-col size="4">
+              <ion-input type="number" *ngIf="item.typeAmount === 'peso' || item.typeAmount === 'volumen'" [placeholder]="'page4.alerts.11.header' | translate" required max="8" [(ngModel)]="item.amount"></ion-input>
+              <ion-input type="number" *ngIf="item.typeAmount === 'longitud'" [placeholder]="'page4.alerts.12.header' | translate" required max="8" [(ngModel)]="item.amount"></ion-input>
+              <ion-input type="number" *ngIf="item.typeAmount === 'unidad'" [placeholder]="'page4.alerts.12.subtitle' | translate" required max="8" [(ngModel)]="item.amount"></ion-input>
+            </ion-col>
+            <ion-col size="8">
+              <ion-select [placeholder]="'page4.alerts.11.placeholder' | translate" *ngIf="item.typeAmount === 'peso'" name="nameAmount" required [(ngModel)]="item.nameAmount">
+                <ion-select-option [value]="'page3.settings.4.dimensions.0.dimensionId' | translate">{{ 'page3.settings.4.dimensions.0.sign' | translate }}</ion-select-option>
+                <ion-select-option [value]="'page3.settings.4.dimensions.1.dimensionId' | translate">{{ 'page3.settings.4.dimensions.1.sign' | translate }}</ion-select-option>
+              </ion-select>
+              <ion-select [placeholder]="'page4.alerts.11.confirmMessage' | translate" *ngIf="item.typeAmount === 'longitud'" name="nameAmount" required [(ngModel)]="item.nameAmount">
+                <ion-select-option [value]="'page3.settings.4.dimensions.4.dimensionId' | translate">{{ 'page3.settings.4.dimensions.4.sign' | translate }}</ion-select-option>
+                <ion-select-option [value]="'page3.settings.4.dimensions.5.dimensionId' | translate">{{ 'page3.settings.4.dimensions.5.sign' | translate }}</ion-select-option>
+              </ion-select>
+              <ion-select [placeholder]="'page4.alerts.11.cancelButton' | translate" *ngIf="item.typeAmount === 'volumen'" name="nameAmount" required [(ngModel)]="item.nameAmount">
+                <ion-select-option [value]="'page3.settings.4.dimensions.2.dimensionId' | translate">{{ 'page3.settings.4.dimensions.2.sign' | translate }}</ion-select-option>
+                <ion-select-option [value]="'page3.settings.4.dimensions.3.dimensionId' | translate">{{ 'page3.settings.4.dimensions.3.sign' | translate }}</ion-select-option>
+              </ion-select>
+              <ion-label *ngIf="item.typeAmount === 'unidad'">{{ 'page3.settings.4.dimensions.6.sign' | translate }}</ion-label>
+            </ion-col>
+          </ion-row>
+        </ion-grid>
+      </ion-item>
+      
+      <ion-item-options side="end">
+        <ion-item-option color="danger" (click)="deleteItem(item)" *ngIf="this.isEdit">
+          <ion-icon name="trash-outline"></ion-icon>
+          {{ 'page4.deleteButton' | translate }}
+        </ion-item-option>
+        <ion-item-option color="danger" (click)="deleteItem2(item)" *ngIf="!this.isEdit">
+          <ion-icon name="trash-outline"></ion-icon>
+          {{ 'page4.deleteButton' | translate }}
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list> -->
+
+  <ion-list>
+    <ion-item-sliding *ngFor="let item of this.listaPrev.articles">
+      <ion-item>
+        <ion-img *ngIf="item.image" [src]="'page2.categories.' + item.catId + '.subcategories.' + item.subId + '.articles.' + item.artId + '.image' | translate" alt="fv" style="width: 24px; height: 24px;"></ion-img>
+        <ion-img *ngIf="!item.image" src="/assets/icon/carro-compra.png" alt="fv" style="width: 24px; height: 24px;"></ion-img>
+        <ion-label *ngIf="item.image">&nbsp; &nbsp;{{ 'page2.categories.' + item.catId + '.subcategories.' + item.subId + '.articles.' + item.artId + '.name' | translate }}</ion-label>
+        <ion-label *ngIf="!item.image">&nbsp; &nbsp;{{ item.name }}</ion-label>
+
+        <div style="display: inline;" slot="end">
+          <div>
+            <ion-item style="display: inline-table;" lines="none">
+              <ion-input type="text" [placeholder]="'page4.alerts.11.subtitle' | translate" required [(ngModel)]="item.price" size="1"></ion-input>
+            </ion-item>
+            <ion-item style="display: inline-table;" lines="none">
+              <ion-select [placeholder]="'page3.settings.3.name' | translate" [(ngModel)]="item.typePrice">
+                <ion-select-option [value]="'page3.settings.3.money.0.moneyId' | translate">{{ 'page3.settings.3.money.0.name' | translate }}</ion-select-option>
+                <ion-select-option [value]="'page3.settings.3.money.1.moneyId' | translate">{{ 'page3.settings.3.money.1.name' | translate }}</ion-select-option>
+                <ion-select-option [value]="'page3.settings.3.money.2.moneyId' | translate">{{ 'page3.settings.3.money.2.name' | translate }}</ion-select-option>
+              </ion-select>
+            </ion-item>
+          </div>
+          <div>
+            <ion-item style="display: inline-table;" lines="none">
+              <ion-input type="text" *ngIf="item.typeAmount === 'peso' || item.typeAmount === 'volumen'" [placeholder]="'page4.alerts.11.header' | translate" required [(ngModel)]="item.amount" size="1"></ion-input>
+              <ion-input type="text" *ngIf="item.typeAmount === 'longitud'" [placeholder]="'page4.alerts.12.header' | translate" required [(ngModel)]="item.amount" size="1"></ion-input>
+              <ion-input type="text" *ngIf="item.typeAmount === 'unidad'" [placeholder]="'page4.alerts.12.subtitle' | translate" required [(ngModel)]="item.amount" size="1"></ion-input>
+            </ion-item>
+            <ion-item style="display: inline-table;" lines="none">
+              <ion-select [placeholder]="'page4.alerts.11.header' | translate" *ngIf="item.typeAmount === 'peso'" name="nameAmount" required [(ngModel)]="item.nameAmount">
+                <ion-select-option [value]="'page3.settings.4.dimensions.0.dimensionId' | translate">{{ 'page3.settings.4.dimensions.0.sign' | translate }}</ion-select-option>
+                <ion-select-option [value]="'page3.settings.4.dimensions.1.dimensionId' | translate">{{ 'page3.settings.4.dimensions.1.sign' | translate }}</ion-select-option>
+              </ion-select>
+              <ion-select [placeholder]="'page4.alerts.11.confirmMessage' | translate" *ngIf="item.typeAmount === 'longitud'" name="nameAmount" required [(ngModel)]="item.nameAmount">
+                <ion-select-option [value]="'page3.settings.4.dimensions.4.dimensionId' | translate">{{ 'page3.settings.4.dimensions.4.sign' | translate }}</ion-select-option>
+                <ion-select-option [value]="'page3.settings.4.dimensions.5.dimensionId' | translate">{{ 'page3.settings.4.dimensions.5.sign' | translate }}</ion-select-option>
+              </ion-select>
+              <ion-select [placeholder]="'page4.alerts.11.cancelButton' | translate" *ngIf="item.typeAmount === 'volumen'" name="nameAmount" required [(ngModel)]="item.nameAmount">
+                <ion-select-option [value]="'page3.settings.4.dimensions.2.dimensionId' | translate">{{ 'page3.settings.4.dimensions.2.sign' | translate }}</ion-select-option>
+                <ion-select-option [value]="'page3.settings.4.dimensions.3.dimensionId' | translate">{{ 'page3.settings.4.dimensions.3.sign' | translate }}</ion-select-option>
+              </ion-select>
+              <ion-label *ngIf="item.typeAmount === 'unidad'">{{ 'page3.settings.4.dimensions.6.sign' | translate }}</ion-label>
+            </ion-item>
+          </div>
+        </div>
+      </ion-item>
+  
+      <ion-item-options side="end">
+        <ion-item-option color="danger" (click)="deleteItem(item)" *ngIf="this.isEdit">
+          <ion-icon name="trash-outline"></ion-icon>
+          {{ 'page4.deleteButton' | translate }}
+        </ion-item-option>
+        <ion-item-option color="danger" (click)="deleteItem2(item)" *ngIf="!this.isEdit">
+          <ion-icon name="trash-outline"></ion-icon>
+          {{ 'page4.deleteButton' | translate }}
+        </ion-item-option>
+      </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-button (click)="guardarLista()" expand="full" color="success" size="large" type="submit">
+      {{ 'page4.saveButton' | translate }}
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

@@ -1,0 +1,19 @@
+<ion-content fullscreen>
+  <ion-slides>
+    <ion-slide>
+      <img [src]="'page4.intro.0.img' | translate" alt="fv">
+      <h1>{{ 'page4.intro.0.h1' | translate }}</h1>
+      <p>{{ 'page4.intro.0.p' | translate }}</p>
+    </ion-slide>
+    <ion-slide>
+      <img [src]="'page4.intro.1.img' | translate" alt="fv">
+      <h1>{{ 'page4.intro.1.h1' | translate }}</h1>
+      <p>{{ 'page4.intro.1.p' | translate }}</p>
+    </ion-slide>
+    <ion-slide>
+      <img [src]="'page4.intro.2.img' | translate" alt="fv">
+      <h1>{{ 'page4.intro.2.h1' | translate }}</h1>
+      <ion-button (click)="disableIntro()" expand="full" fill="clear">{{ 'page4.intro.2.p' | translate }}<ion-icon name="arrow-forward-outline"></ion-icon></ion-button>
+    </ion-slide>
+  </ion-slides>
+</ion-content>

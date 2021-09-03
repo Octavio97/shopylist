@@ -1,0 +1,37 @@
+<!-- Encabezado -->
+<app-header [titulo]="'page1.name' | translate" ruta="/"></app-header>
+
+<ion-content>
+  <!-- Boton de agregar  -->
+  <ion-fab vertical="bottom" horizontal="end" slot="fixed">
+    <ion-fab-button color="success" routerLink="/categoria">
+      <ion-icon name="add"></ion-icon>
+    </ion-fab-button>
+  </ion-fab>
+  
+  <!-- Listas -->
+  <div #card class="card" *ngIf="listas.length < 1">
+    <ion-card style="text-align: center;" >
+      <i class="fas fa-shopping-basket fa-7x" style="text-align: center;"></i>
+      <ion-card-header>
+        <ion-card-subtitle>{{ 'page4.noListLabel' | translate }}</ion-card-subtitle>
+      </ion-card-header>
+    </ion-card>
+  </div>
+
+  <div #card class="card">
+    <ion-card *ngFor="let item of listas" (click)="abrirLista(item)">
+      <ion-card-header>
+        <ion-card-title color="success">
+          {{ item.name }}
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-label *ngFor="let art of item.articles; let i = index">
+          <ion-label *ngIf="art.image">{{ 'page2.categories.' + art.catId + '.subcategories.' + art.subId + '.articles.' + art.artId + '.name' | translate }}<ion-label *ngIf="i !== item.articles.length - 1">, </ion-label></ion-label>
+          <ion-label *ngIf="!art.image">{{ art.name }}<ion-label *ngIf="i !== item.articles.length - 1">, </ion-label></ion-label>
+        </ion-label>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

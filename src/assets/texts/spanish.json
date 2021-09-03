@@ -1,0 +1,3659 @@
+{
+    "page1": 
+    {
+        "pageId": 0,
+        "name": "Inicio"
+    },
+    "page2":
+    {
+        "pageId": 1,
+        "name": "Categorías",
+        "categories": [
+            {
+                "catId": 0,
+                "name": "Abarrotes",
+                "image": "/assets/icon/iconsFake/fruta-verdura.png",
+                "subcategories":[
+                    {
+                        "subId": 0,
+                        "name": "Frutas y verduras",
+                        "image": "/assets/icon/iconsFake/fruta-verdura.png",
+                        "articles":[
+                            {
+                                "artId": 0,
+                                "name": "Acelga",
+                                "image": "/assets/icon/fruits & vegetables/acelga.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Aguacate",
+                                "image": "/assets/icon/fruits & vegetables/aguacate.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Ajo",
+                                "image": "/assets/icon/fruits & vegetables/ajo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Alcachofa",
+                                "image": "/assets/icon/fruits & vegetables/alcachofa.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Apio",
+                                "image": "/assets/icon/fruits & vegetables/apio.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Arándano",
+                                "image": "/assets/icon/fruits & vegetables/arandano.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Berenjena",
+                                "image": "/assets/icon/fruits & vegetables/berenjena.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Brócoli",
+                                "image": "/assets/icon/fruits & vegetables/brocoli.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Calabacín",
+                                "image": "/assets/icon/fruits & vegetables/calabacin.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Calabaza",
+                                "image": "/assets/icon/fruits & vegetables/calabaza.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 10,
+                                "name": "Carambola",
+                                "image": "/assets/icon/fruits & vegetables/carambola.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 11,
+                                "name": "Cebolla",
+                                "image": "/assets/icon/fruits & vegetables/cebolla.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 12,
+                                "name": "Cereza",
+                                "image": "/assets/icon/fruits & vegetables/cerezas.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 13,
+                                "name": "Champiñones",
+                                "image": "/assets/icon/fruits & vegetables/champinon.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 14,
+                                "name": "Chícharos",
+                                "image": "/assets/icon/fruits & vegetables/chicharos.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 15,
+                                "name": "Chirimoya",
+                                "image": "/assets/icon/fruits & vegetables/chirimoya.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 16,
+                                "name": "Ciruela",
+                                "image": "/assets/icon/fruits & vegetables/ciruela.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 17,
+                                "name": "Coco",
+                                "image": "/assets/icon/fruits & vegetables/coco.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 18,
+                                "name": "Col",
+                                "image": "/assets/icon/fruits & vegetables/col.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 19,
+                                "name": "Coliflor",
+                                "image": "/assets/icon/fruits & vegetables/coliflor.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 20,
+                                "name": "Colinabo",
+                                "image": "/assets/icon/fruits & vegetables/colinabo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 22,
+                                "name": "Durazno",
+                                "image": "/assets/icon/fruits & vegetables/durazno.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 49,
+                                "name": "Espárragos",
+                                "image": "/assets/icon/fruits & vegetables/esparragos.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 45,
+                                "name": "Espinaca",
+                                "image": "/assets/icon/fruits & vegetables/espinacas.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Frambuesa",
+                                "image": "/assets/icon/fruits & vegetables/frambuesa.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Fresa",
+                                "image": "/assets/icon/fruits & vegetables/fresa.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Grosella",
+                                "image": "/assets/icon/fruits & vegetables/grosella.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 40,
+                                "name": "Habas",
+                                "image": "/assets/icon/fruits & vegetables/haba.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 25,
+                                "name": "Higo",
+                                "image": "/assets/icon/fruits & vegetables/higos.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 18,
+                                "name": "Kiwi",
+                                "image": "/assets/icon/fruits & vegetables/kiwi.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 35,
+                                "name": "Lechuga",
+                                "image": "/assets/icon/fruits & vegetables/lechuga.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Limón",
+                                "image": "/assets/icon/fruits & vegetables/limon.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 41,
+                                "name": "Maíz",
+                                "image": "/assets/icon/fruits & vegetables/maiz.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Mandarina",
+                                "image": "/assets/icon/fruits & vegetables/mandarina.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 19,
+                                "name": "Mango",
+                                "image": "/assets/icon/fruits & vegetables/mango.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 0,
+                                "name": "Manzana",
+                                "image": "/assets/icon/fruits & vegetables/manzana.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 12,
+                                "name": "Melón",
+                                "image": "/assets/icon/fruits & vegetables/melon.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 32,
+                                "name": "Nabo",
+                                "image": "/assets/icon/fruits & vegetables/nabo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 10,
+                                "name": "Naranja",
+                                "image": "/assets/icon/fruits & vegetables/naranja.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 26,
+                                "name": "Níspero",
+                                "image": "/assets/icon/fruits & vegetables/nispero.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 20,
+                                "name": "Papaya",
+                                "image": "/assets/icon/fruits & vegetables/papaya.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 53,
+                                "name": "Patata",
+                                "image": "/assets/icon/fruits & vegetables/patata.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 38,
+                                "name": "Pepino",
+                                "image": "/assets/icon/fruits & vegetables/pepino.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Pera",
+                                "image": "/assets/icon/fruits & vegetables/pera.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 46,
+                                "name": "Perejil",
+                                "image": "/assets/icon/fruits & vegetables/perejil.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 54,
+                                "name": "Pimiento",
+                                "image": "/assets/icon/fruits & vegetables/pimientos.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 21,
+                                "name": "Piña",
+                                "image": "/assets/icon/fruits & vegetables/pina.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Plátano",
+                                "image": "/assets/icon/fruits & vegetables/platanos.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 50,
+                                "name": "Puerro",
+                                "image": "/assets/icon/fruits & vegetables/puerro.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 33,
+                                "name": "Rábano",
+                                "image": "/assets/icon/fruits & vegetables/rabano.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 51,
+                                "name": "Remolacha",
+                                "image": "/assets/icon/fruits & vegetables/remolacha.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 13,
+                                "name": "Sandía",
+                                "image": "/assets/icon/fruits & vegetables/sandia.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 13,
+                                "name": "Tomate",
+                                "image": "/assets/icon/fruits & vegetables/tomate.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 11,
+                                "name": "Toronja",
+                                "image": "/assets/icon/fruits & vegetables/toronja.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Uvas",
+                                "image": "/assets/icon/fruits & vegetables/uvas.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 27,
+                                "name": "Zanahoria",
+                                "image": "/assets/icon/fruits & vegetables/zanahoria.png",
+                                "typeAmount": "peso"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 1,
+                        "name": "Carnes",
+                        "image": "/assets/icon/iconsFake/carniceria.png",
+                        "articles":[
+                            {
+                                "artId": 0,
+                                "name": "Alas de pavo",
+                                "image": "/assets/icon/meat/cabeza-pavo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Alas de pollo",
+                                "image": "/assets/icon/meat/cabeza-pollo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Cabeza de cerdo",
+                                "image": "/assets/icon/meat/cabeza-cerdo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Cabeza de cordero",
+                                "image": "/assets/icon/meat/cabeza-oveja.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Cabeza de res",
+                                "image": "/assets/icon/meat/cabeza-res.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Chuletas de cerdo",
+                                "image": "/assets/icon/meat/cabeza-cerdo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Codo de cerdo",
+                                "image": "/assets/icon/meat/cabeza-cerdo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Corazón de pollo",
+                                "image": "/assets/icon/meat/cabeza-pollo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Costillas de cerdo",
+                                "image": "/assets/icon/meat/cabeza-cerdo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Costillas de res",
+                                "image": "/assets/icon/meat/cabeza-res.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 10,
+                                "name": "Cuello de cordero",
+                                "image": "/assets/icon/meat/cabeza-oveja.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 11,
+                                "name": "Cuello de pollo",
+                                "image": "/assets/icon/meat/cabeza-pollo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 12,
+                                "name": "Cuello de res",
+                                "image": "/assets/icon/meat/cabeza-res.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 13,
+                                "name": "Falda de res",
+                                "image": "/assets/icon/meat/cabeza-res.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 14,
+                                "name": "Filetes de pescado",
+                                "image": "/assets/icon/meat/cabeza-pez.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 15,
+                                "name": "Hígado de pollo",
+                                "image": "/assets/icon/meat/cabeza-pollo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 16,
+                                "name": "Jamón de cerdo",
+                                "image": "/assets/icon/meat/cabeza-cerdo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 17,
+                                "name": "Jamón de pavo",
+                                "image": "/assets/icon/meat/cabeza-pavo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 18,
+                                "name": "Jamón de res",
+                                "image": "/assets/icon/meat/cabeza-res.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 19,
+                                "name": "Lomo de cerdo",
+                                "image": "/assets/icon/meat/cabeza-cerdo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 20,
+                                "name": "Lomo de res",
+                                "image": "/assets/icon/meat/cabeza-res.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 21,
+                                "name": "Lomo de cordero",
+                                "image": "/assets/icon/meat/cabeza-oveja.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 22,
+                                "name": "Manteca de cerdo",
+                                "image": "/assets/icon/meat/cabeza-cerdo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 23,
+                                "name": "Manteca de res",
+                                "image": "/assets/icon/meat/cabeza-res.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 24,
+                                "name": "Mollejas de pollo",
+                                "image": "/assets/icon/meat/cabeza-pollo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 25,
+                                "name": "Morcillo de res",
+                                "image": "/assets/icon/meat/cabeza-res.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 26,
+                                "name": "Orejas de cerdo",
+                                "image": "/assets/icon/meat/cabeza-cerdo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 27,
+                                "name": "Paletilla de cerdo",
+                                "image": "/assets/icon/meat/cabeza-cerdo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 28,
+                                "name": "Paletilla de cordero",
+                                "image": "/assets/icon/meat/cabeza-oveja.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 29,
+                                "name": "Panza de cerdo",
+                                "image": "/assets/icon/meat/cabeza-cerdo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 30,
+                                "name": "Panza de cordero",
+                                "image": "/assets/icon/meat/cabeza-oveja.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 31,
+                                "name": "Patas de pollo",
+                                "image": "/assets/icon/meat/cabeza-pollo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 32,
+                                "name": "Pavo completo",
+                                "image": "/assets/icon/meat/cabeza-pavo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 33,
+                                "name": "Pecho de cordero",
+                                "image": "/assets/icon/meat/cabeza-oveja.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 34,
+                                "name": "Pecho de res",
+                                "image": "/assets/icon/meat/cabeza-res.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 35,
+                                "name": "Pechuga de pavo",
+                                "image": "/assets/icon/meat/cabeza-pavo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 36,
+                                "name": "Pechuga de pollo",
+                                "image": "/assets/icon/meat/cabeza-pollo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 37,
+                                "name": "Pescado completo",
+                                "image": "/assets/icon/meat/cabeza-pez.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 38,
+                                "name": "Pierna de cordero",
+                                "image": "/assets/icon/meat/cabeza-oveja.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 39,
+                                "name": "Pierna de pavo",
+                                "image": "/assets/icon/meat/cabeza-pavo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 40,
+                                "name": "Pierna de pollo",
+                                "image": "/assets/icon/meat/cabeza-pollo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 41,
+                                "name": "Pollo completo",
+                                "image": "/assets/icon/meat/cabeza-pollo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 42,
+                                "name": "Salchicha de pavo",
+                                "image": "/assets/icon/meat/cabeza-pavo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 43,
+                                "name": "Salchicha de res",
+                                "image": "/assets/icon/meat/cabeza-res.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 44,
+                                "name": "Solomillo de cerdo",
+                                "image": "/assets/icon/meat/cabeza-cerdo.png",
+                                "typeAmount": "peso"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 2,
+                        "name": "Panadería",
+                        "image": "/assets/icon/iconsFake/panaderia.png",
+                        "articles":[
+                            {
+                                "artId": 0,
+                                "name": "Baguette",
+                                "image": "/assets/icon/bakery/baguette.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Galletas",
+                                "image": "/assets/icon/bakery/galleta.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Pan de barra",
+                                "image": "/assets/icon/bakery/pan-barra.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Pan dulce",
+                                "image": "/assets/icon/bakery/pan-dulce.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Pan tostado",
+                                "image": "/assets/icon/bakery/pan-tostado.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Pastel",
+                                "image": "/assets/icon/bakery/pastel.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 3,
+                        "name": "Lácteos",
+                        "image": "/assets/icon/iconsFake/lacteos.png",
+                        "articles":[
+                            {
+                                "artId": 0,
+                                "name": "Búlgaros",
+                                "image":"/assets/icon/milk products/bulgaros.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Crema",
+                                "image":"/assets/icon/milk products/crema.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Cuajada",
+                                "image":"/assets/icon/milk products/cuajada.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Helado",
+                                "image":"/assets/icon/milk products/helado.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Leche",
+                                "image":"/assets/icon/milk products/leche.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Leche condensada",
+                                "image":"/assets/icon/milk products/leche-condensada.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Leche en polvo",
+                                "image":"/assets/icon/milk products/leche-polvo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Leche para bebés",
+                                "image":"/assets/icon/milk products/leche-bebe.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Mantequilla",
+                                "image":"/assets/icon/milk products/mantequilla.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Queso",
+                                "image":"/assets/icon/milk products/queso.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 10,
+                                "name": "Yogur",
+                                "image":"/assets/icon/milk products/yogur.png",
+                                "typeAmount": "volumen"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 4,
+                        "name": "Postres",
+                        "image": "/assets/icon/iconsFake/reposteria.png",
+                        "articles":[
+                            {
+                                "artId": 0,
+                                "name": "Barra de chocolate",
+                                "image": "/assets/icon/snacks/barra-chocolate.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Brownie",
+                                "image": "/assets/icon/snacks/brownie.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Caramelos",
+                                "image": "/assets/icon/snacks/caramelo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Chicles",
+                                "image": "/assets/icon/snacks/chicles.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Flan",
+                                "image": "/assets/icon/snacks/flan.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Gelatina",
+                                "image": "/assets/icon/snacks/gelatina.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Palomitas de maíz",
+                                "image": "/assets/icon/snacks/palomitas-de-maiz.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Papas en bolsa",
+                                "image": "/assets/icon/snacks/papas-bolsa.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 5,
+                        "name": "Comida congelada",
+                        "image": "/assets/icon/iconsFake/congelado.png",
+                        "articles":[
+                            {
+                                "artId": 0,
+                                "name": "Espagueti",
+                                "image": "/assets/icon/frozen foods/spaguetti.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Hamburguesa",
+                                "image": "/assets/icon/frozen foods/hamburguesa.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Nuggets",
+                                "image": "/assets/icon/frozen foods/nuggets.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Patatas a la francesa",
+                                "image": "/assets/icon/frozen foods/papas-fritas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Perrito caliente",
+                                "image": "/assets/icon/frozen foods/hot-dog.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Pizza",
+                                "image": "/assets/icon/frozen foods/pizza.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Tacos",
+                                "image": "/assets/icon/frozen foods/taco.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Vegetales",
+                                "image": "/assets/icon/frozen foods/vegetal.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 6,
+                        "name": "Especias",
+                        "image": "/assets/icon/iconsFake/especias.png",
+                        "articles":[
+                            {
+                                "artId": 0,
+                                "name": "Achiote",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Albahaca",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Azafrán",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Canela",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Clavo",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Comino",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Curry",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Cúrcuma",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Laurel",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Orégano",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 10,
+                                "name": "Pimienta",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 11,
+                                "name": "Romero",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 12,
+                                "name": "Sal",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 13,
+                                "name": "Tomillo",
+                                "image": "/assets/icon/spices/spices.png",
+                                "typeAmount": "peso"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 7,
+                        "name": "Enlatados",
+                        "image": "/assets/icon/iconsFake/enlatados.png",
+                        "articles":[
+                            {
+                                "artId": 0,
+                                "name": "Atún",
+                                "image": "/assets/icon/canned/atun.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Chipotle",
+                                "image": "/assets/icon/canned/chipotle.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Crema",
+                                "image": "/assets/icon/canned/crema.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Hongo",
+                                "image": "/assets/icon/canned/hongo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Jalapeño",
+                                "image": "/assets/icon/canned/jalapeno.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Maíz",
+                                "image": "/assets/icon/fruits & vegetables/maiz.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Pepinillos",
+                                "image": "/assets/icon/canned/pepinillos.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Salsa de tomate",
+                                "image": "/assets/icon/canned/salsa-tomate.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Salsa picante",
+                                "image": "/assets/icon/canned/salsa-picante.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Sopa",
+                                "image": "/assets/icon/canned/sopa.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 8,
+                        "name": "Semillas",
+                        "image": "/assets/icon/iconsFake/semillas.png",
+                        "articles":[
+                            {
+                                "artId": 0,
+                                "name": "Arroz",
+                                "image": "/assets/icon/seeds/arroz.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Avellanas",
+                                "image": "/assets/icon/seeds/avellana.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Avena",
+                                "image": "/assets/icon/seeds/avena.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Cacahuate",
+                                "image": "/assets/icon/seeds/cacahuate.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Cebada",
+                                "image": "/assets/icon/seeds/cebada.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Frijol",
+                                "image": "/assets/icon/seeds/frijol.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Garbanzo",
+                                "image": "/assets/icon/seeds/garbanzo.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Lenteja",
+                                "image": "/assets/icon/seeds/lentejas.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Nuez",
+                                "image": "/assets/icon/seeds/nuez.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Pistache",
+                                "image": "/assets/icon/seeds/pistacho.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 10,
+                                "name": "Soya",
+                                "image": "/assets/icon/seeds/soya.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 11,
+                                "name": "Trigo",
+                                "image": "/assets/icon/seeds/trigo.png",
+                                "typeAmount": "peso"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 9,
+                        "name": "Pastas y aceites",
+                        "image": "/assets/icon/iconsFake/pastas.png",
+                        "articles":[
+                            {
+                                "artId": 0,
+                                "name": "Aceite de coco",
+                                "image": "/assets/icon/pastas/aceite-coco.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Aceite de girasol",
+                                "image": "/assets/icon/pastas/aceite-girasol.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Aceite de oliva",
+                                "image": "/assets/icon/pastas/aceite-oliva.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Espagueti",
+                                "image": "/assets/icon/pastas/espagueti.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Fideos",
+                                "image": "/assets/icon/pastas/fideos.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Lasaña",
+                                "image": "/assets/icon/pastas/lasagna.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Macarrones",
+                                "image": "/assets/icon/pastas/macaroni.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Ravioli",
+                                "image": "/assets/icon/pastas/ravioli.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Tortellini",
+                                "image": "/assets/icon/pastas/tortellini.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "catId": 1,
+                "name": "Ferretería",
+                "image": "/assets/icon/iconsFake/ferreteria.png",
+                "subcategories":[
+                    {
+                        "subId": 0,
+                        "name": "Maderas",
+                        "image": "/assets/icon/iconsFake/madera.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Tabla de abedul",
+                                "image": "/assets/icon/wood/tabla.png",
+                                "typeAmount": "longitud"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Tabla de caoba",
+                                "image": "/assets/icon/wood/tabla.png",
+                                "typeAmount": "longitud"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Tabla de pino",
+                                "image": "/assets/icon/wood/tabla.png",
+                                "typeAmount": "longitud"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Tabla de roble",
+                                "image": "/assets/icon/wood/tabla.png",
+                                "typeAmount": "longitud"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Tablilla de abedul",
+                                "image": "/assets/icon/wood/barrote.png",
+                                "typeAmount": "longitud"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Tablilla de caoba",
+                                "image": "/assets/icon/wood/barrote.png",
+                                "typeAmount": "longitud"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Tablilla de pino",
+                                "image": "/assets/icon/wood/barrote.png",
+                                "typeAmount": "longitud"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Tablilla de roble",
+                                "image": "/assets/icon/wood/barrote.png",
+                                "typeAmount": "longitud"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 1,
+                        "name": "Plomería",
+                        "image": "/assets/icon/iconsFake/plomeria.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Escusados",
+                                "image": "/assets/icon/plumbing/escusado.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Extension en cruz",
+                                "image": "/assets/icon/plumbing/extension-cruz.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Extension en escuadra",
+                                "image": "/assets/icon/plumbing/extension-escuadra.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Extension en T",
+                                "image": "/assets/icon/plumbing/extension-t.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Extension en U",
+                                "image": "/assets/icon/plumbing/extension-u.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Extension en Y",
+                                "image": "/assets/icon/plumbing/extension-y.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Extension flexible",
+                                "image": "/assets/icon/plumbing/extension-flexible.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Extension simple",
+                                "image": "/assets/icon/plumbing/extension-simple.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Lavabo",
+                                "image": "/assets/icon/plumbing/lavabo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Llave",
+                                "image": "/assets/icon/plumbing/llave.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 10,
+                                "name": "Regadera",
+                                "image": "/assets/icon/plumbing/regadera.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 11,
+                                "name": "Tubería",
+                                "image": "/assets/icon/plumbing/tuberia.png",
+                                "typeAmount": "longitud"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 2,
+                        "name": "Pinturas",
+                        "image": "/assets/icon/iconsFake/pinturas.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Bote de pintura",
+                                "image": "/assets/icon/paint/bote-pintura.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Brocha",
+                                "image": "/assets/icon/paint/brocha.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Charola para pintura",
+                                "image": "/assets/icon/paint/charola-pintura.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Pistola de pintura",
+                                "image": "/assets/icon/paint/pistola-pintura.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Rodillo",
+                                "image": "/assets/icon/paint/rodillo-pintura.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 3,
+                        "name": "Tornillos y clavos",
+                        "image": "/assets/icon/iconsFake/tornillos-clavos.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Clavos",
+                                "image": "/assets/icon/screws/clavos.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Pernos",
+                                "image": "/assets/icon/screws/pernos.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Tachuelas",
+                                "image": "/assets/icon/screws/tachuela.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Tornillos",
+                                "image": "/assets/icon/screws/tornillo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Tuercas",
+                                "image": "/assets/icon/screws/tuerca.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 4,
+                        "name": "Electricidad",
+                        "image": "/assets/icon/iconsFake/electricidad.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Cables",
+                                "image": "/assets/icon/electric/cables.png",
+                                "typeAmount": "longitud"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Caja eléctrica",
+                                "image": "/assets/icon/electric/caja-electrica.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Cinta eléctrica",
+                                "image": "/assets/icon/electric/cinta-electrica.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Conectores",
+                                "image": "/assets/icon/electric/conector.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Enchufes",
+                                "image": "/assets/icon/electric/enchufe.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Focos",
+                                "image": "/assets/icon/electric/foco.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Focos LED",
+                                "image": "/assets/icon/electric/foco-led.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Roseta para foco",
+                                "image": "/assets/icon/electric/roseta-foco.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 5,
+                        "name": "Equipo de trabajo",
+                        "image": "/assets/icon/iconsFake/equipo-trabajo.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Caja de herramientas",
+                                "image": "/assets/icon/tools/caja-herramientas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Desarmador",
+                                "image": "/assets/icon/tools/desarmador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Desarmador eléctrico",
+                                "image": "/assets/icon/tools/desarmador-electrico.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Grapadora",
+                                "image": "/assets/icon/tools/grapadora.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Lijadora",
+                                "image": "/assets/icon/tools/lijadora.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Llave mecánica",
+                                "image": "/assets/icon/tools/llave-mecanica.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Martillo",
+                                "image": "/assets/icon/tools/martillo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Rotomartillo",
+                                "image": "/assets/icon/tools/rotomartillo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Sierra",
+                                "image": "/assets/icon/tools/sierra.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Sierra eléctrica",
+                                "image": "/assets/icon/tools/sierra-electrica.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 10,
+                                "name": "Taladro",
+                                "image": "/assets/icon/tools/taladro.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 6,
+                        "name": "Industrial",
+                        "image": "/assets/icon/iconsFake/industrial.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Alquitrán",
+                                "image": "/assets/icon/industrial/brea.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Cemento",
+                                "image": "/assets/icon/industrial/cemento.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Láminas de metal",
+                                "image": "/assets/icon/industrial/lamina.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Soldadura",
+                                "image": "/assets/icon/industrial/soldadura.png",
+                                "typeAmount": "longitud"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Varillas de metal",
+                                "image": "/assets/icon/industrial/varilla-metal.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Vigas de acero",
+                                "image": "/assets/icon/industrial/viga-acero.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Yeso",
+                                "image": "/assets/icon/industrial/yeso.png",
+                                "typeAmount": "peso"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 7,
+                        "name": "Cerrajería",
+                        "image": "/assets/icon/iconsFake/cerrajeria.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Alarma p/ coche",
+                                "image": "/assets/icon/keys/alarma-coche.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Candados",
+                                "image": "/assets/icon/keys/candado.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Cerrojo",
+                                "image": "/assets/icon/keys/cerrojo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Chapa",
+                                "image": "/assets/icon/keys/chapa.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Llaves",
+                                "image": "/assets/icon/keys/llaves.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 8,
+                        "name": "Selladores",
+                        "image": "/assets/icon/iconsFake/selladores.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Sellador blanco",
+                                "image": "/assets/icon/sealer/sellador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Sellador de concreto",
+                                "image": "/assets/icon/sealer/sellador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Sellador negro",
+                                "image": "/assets/icon/sealer/sellador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Sellador transparente",
+                                "image": "/assets/icon/sealer/sellador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Sellador térmico",
+                                "image": "/assets/icon/sealer/sellador.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "catId": 2,
+                "name": "Automotríz",
+                "image": "/assets/icon/iconsFake/automotriz.png",
+                "subcategories":[
+                    {
+                        "subId": 0,
+                        "name": "Aceites y lubricantes",
+                        "image": "/assets/icon/iconsFake/aceite-coche.png",
+                        "articles":[
+                            {
+                                "artId": 0,
+                                "name": "Aceite",
+                                "image": "/assets/icon/oil/aceite.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Aceite para motocicleta",
+                                "image": "/assets/icon/oil/aceite.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Aceite semi-sintético",
+                                "image": "/assets/icon/oil/aceite.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Aceite sintético",
+                                "image": "/assets/icon/oil/aceite.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Lubricante en aerosol",
+                                "image": "/assets/icon/oil/lubricante-aerosol.png",
+                                "typeAmount": "volumen"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Lubricante en líquido",
+                                "image": "/assets/icon/oil/lubricante-liquido.png",
+                                "typeAmount": "volumen"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 1,
+                        "name": "LLantas",
+                        "image": "/assets/icon/iconsFake/llantas.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Llantas Camión",
+                                "image": "/assets/icon/tires/llantas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Llantas bicicleta",
+                                "image": "/assets/icon/tires/llantas-bicicleta.png",
+                                "typeAmount": "unidad"
+                            },                            
+                            {
+                                "artId": 2,
+                                "name": "Llantas motocicleta",
+                                "image": "/assets/icon/tires/llantas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Llantas Pick-up",
+                                "image": "/assets/icon/tires/llantas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Llantas sedán",
+                                "image": "/assets/icon/tires/llantas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Llantas SUV",
+                                "image": "/assets/icon/tires/llantas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Rines Camión",
+                                "image": "/assets/icon/tires/rines.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Rines bicicleta",
+                                "image": "/assets/icon/tires/rines.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Rines motocicleta",
+                                "image": "/assets/icon/tires/rines.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Rines Pick-up",
+                                "image": "/assets/icon/tires/rines.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 10,
+                                "name": "Rines sedán",
+                                "image": "/assets/icon/tires/rines.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 11,
+                                "name": "Rines SUV",
+                                "image": "/assets/icon/tires/rines.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 2,
+                        "name": "Accesorios",
+                        "image": "/assets/icon/iconsFake/accesorios.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Calcomanías",
+                                "image": "/assets/icon/accesories/calcomania.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Cargadores",
+                                "image": "/assets/icon/accesories/cargador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Encendedores",
+                                "image": "/assets/icon/accesories/encendedor.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Estéreo",
+                                "image": "/assets/icon/accesories/estereo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Fundas para asiento",
+                                "image": "/assets/icon/accesories/funda-coche.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Luces LED",
+                                "image": "/assets/icon/accesories/tira-led.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Porta celulares",
+                                "image": "/assets/icon/accesories/portacelular.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 3,
+                        "name": "Autopartes",
+                        "image": "/assets/icon/iconsFake/autopartes.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Bujías",
+                                "image": "/assets/icon/autoparts/bujia.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Faros",
+                                "image": "/assets/icon/autoparts/faros-coche.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Frenos",
+                                "image": "/assets/icon/autoparts/frenos.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Mofle",
+                                "image": "/assets/icon/autoparts/mofle.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Sensores",
+                                "image": "/assets/icon/autoparts/sensores.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Suspensiones",
+                                "image": "/assets/icon/autoparts/suspension.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "catId": 3,
+                "name": "Hogar y muebles",
+                "image": "/assets/icon/iconsFake/hogar.png",
+                "subcategories":[
+                    {
+                        "subId": 0,
+                        "name": "Cocina",
+                        "image": "/assets/icon/iconsFake/cocina.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Alacena",
+                                "image": "/assets/icon/kitchen/alacena.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Batidora",
+                                "image": "/assets/icon/kitchen/batidora.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Cafetera",
+                                "image": "/assets/icon/kitchen/cafetera.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Cubiertos",
+                                "image": "/assets/icon/kitchen/cubiertos.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Estufa",
+                                "image": "/assets/icon/kitchen/estufa.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Extractor",
+                                "image": "/assets/icon/kitchen/extractor.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Lavaplatos",
+                                "image": "/assets/icon/kitchen/lavaplatos.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Licuadora",
+                                "image": "/assets/icon/kitchen/licuadora.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 1,
+                        "name": "Dormitorio",
+                        "image": "/assets/icon/iconsFake/dormitorio.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Armario",
+                                "image": "/assets/icon/bedroom/armario.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Cajón",
+                                "image": "/assets/icon/bedroom/cajon.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Cama",
+                                "image": "/assets/icon/bedroom/cama.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Lampara",
+                                "image": "/assets/icon/bedroom/lampara.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Litera",
+                                "image": "/assets/icon/bedroom/litera.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Mesa de noche",
+                                "image": "/assets/icon/bedroom/mesa-noche.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 2,
+                        "name": "Oficina",
+                        "image": "/assets/icon/iconsFake/oficina.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Escritorio",
+                                "image": "/assets/icon/office/escritorio.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Lampara",
+                                "image": "/assets/icon/office/lampara-escritorio.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Papelera",
+                                "image": "/assets/icon/office/papelera.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Papelería",
+                                "image": "/assets/icon/office/papeleria.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Silla",
+                                "image": "/assets/icon/office/silla-escritorio.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 3,
+                        "name": "Baño",
+                        "image": "/assets/icon/iconsFake/bano.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Cajón de lavabo",
+                                "image": "/assets/icon/bathroom/cajon-lavabo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Toallas",
+                                "image": "/assets/icon/bathroom/toallas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Toallero",
+                                "image": "/assets/icon/bathroom/toallero.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 4,
+                        "name": "Jardín",
+                        "image": "/assets/icon/iconsFake/jardin.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Arena",
+                                "image": "/assets/icon/garden/arena.png",
+                                "typeAmount": "peso"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Aspersores",
+                                "image": "/assets/icon/garden/aspersores.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Flores",
+                                "image": "/assets/icon/garden/flores.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Maceta",
+                                "image": "/assets/icon/garden/maceta.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Manguera",
+                                "image": "/assets/icon/garden/manguera.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Piedras",
+                                "image": "/assets/icon/garden/piedras.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Pistola de agua",
+                                "image": "/assets/icon/garden/pistola-agua.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Regadera",
+                                "image": "/assets/icon/garden/regadera.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Tierra",
+                                "image": "/assets/icon/garden/tierra.png",
+                                "typeAmount": "peso"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 5,
+                        "name": "Cochera",
+                        "image": "/assets/icon/iconsFake/cochera.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Aspiradora",
+                                "image": "/assets/icon/garage/aspiradora.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Cajón de herramientas",
+                                "image": "/assets/icon/garage/cajon-herramientas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Control para puertas",
+                                "image": "/assets/icon/garage/puerta-garaje.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Escoba",
+                                "image": "/assets/icon/garage/escoba.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Lamparas",
+                                "image": "/assets/icon/garage/lampara.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Motor para puerta",
+                                "image": "/assets/icon/garage/motor-garaje.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Trapeador",
+                                "image": "/assets/icon/garage/trapeador.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 6,
+                        "name": "Comedores",
+                        "image": "/assets/icon/iconsFake/comedor.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Banco",
+                                "image": "/assets/icon/dining/banco.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Banco alto",
+                                "image": "/assets/icon/dining/banco-alto.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Mesa",
+                                "image": "/assets/icon/dining/mesa.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Silla",
+                                "image": "/assets/icon/dining/silla.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Silla alta",
+                                "image": "/assets/icon/dining/silla-alta.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Silla de metal",
+                                "image": "/assets/icon/dining/silla-metal.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Silla para bebé",
+                                "image": "/assets/icon/dining/silla-bebe.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "catId": 4,
+                "name": "Ropa",
+                "image": "/assets/icon/iconsFake/ropa.png",
+                "subcategories":[
+                    {
+                        "subId": 0,
+                        "name": "Mujer",
+                        "image": "/assets/icon/iconsFake/mujer.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Abrigo",
+                                "image": "/assets/icon/women/abrigo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Blusa",
+                                "image": "/assets/icon/women/blusa.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Chamarra",
+                                "image": "/assets/icon/women/chamarra.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Falda",
+                                "image": "/assets/icon/women/falda.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Joyería",
+                                "image": "/assets/icon/women/joyeria.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Lencería",
+                                "image": "/assets/icon/women/lenceria.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Pantalón",
+                                "image": "/assets/icon/women/pantalon.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Pijama",
+                                "image": "/assets/icon/women/pijama.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Sudadera",
+                                "image": "/assets/icon/women/sudadera.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Suéter",
+                                "image": "/assets/icon/women/sueter.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 10,
+                                "name": "Traje de baño",
+                                "image": "/assets/icon/women/traje-bano.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 11,
+                                "name": "Vestido",
+                                "image": "/assets/icon/women/vestido.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 12,
+                                "name": "Zapatos",
+                                "image": "/assets/icon/women/zapatos.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 1,
+                        "name": "Hombre",
+                        "image": "/assets/icon/iconsFake/hombre.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Abrigo",
+                                "image": "/assets/icon/men/abrigo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Camisa",
+                                "image": "/assets/icon/men/camisa.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Camiseta",
+                                "image": "/assets/icon/men/camiseta.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Chamarra",
+                                "image": "/assets/icon/men/chamarra.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Joyería",
+                                "image": "/assets/icon/men/joyeria.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Pantalón",
+                                "image": "/assets/icon/men/pantalon.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Pijama",
+                                "image": "/assets/icon/men/pijama.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Ropa interior",
+                                "image": "/assets/icon/men/ropa-interior.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Suéter",
+                                "image": "/assets/icon/men/sueter.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Traje de baño",
+                                "image": "/assets/icon/men/traje-bano.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 10,
+                                "name": "Zapatos",
+                                "image": "/assets/icon/men/zapatos.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 2,
+                        "name": "Niños",
+                        "image": "/assets/icon/iconsFake/nino.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Babero",
+                                "image": "/assets/icon/baby/babero.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Camisa",
+                                "image": "/assets/icon/baby/camisa.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Camiseta",
+                                "image": "/assets/icon/baby/camiseta.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Chamarra",
+                                "image": "/assets/icon/baby/chamarra.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Pantalón",
+                                "image": "/assets/icon/baby/pantalon.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                
+                                "artId": 5,
+                                "name": "Ropa interior",
+                                "image": "/assets/icon/baby/ropa-interior.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Suéter",
+                                "image": "/assets/icon/baby/sueter.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Zapatos",
+                                "image": "/assets/icon/baby/zapatos.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "catId": 5,
+                "name": "Deportes",
+                "image": "/assets/icon/iconsFake/deportes.png",
+                "subcategories":[
+                    {
+                        "subId": 0,
+                        "name": "Ropa",
+                        "image": "/assets/icon/iconsFake/ropa-deportiva.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Blusa deportiva",
+                                "image": "/assets/icon/sports-clothes/blusa-deportiva.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Calcetas",
+                                "image": "/assets/icon/sports-clothes/calcetas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Camiseta",
+                                "image": "/assets/icon/sports-clothes/camiseta.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Camiseta sin mangas",
+                                "image": "/assets/icon/sports-clothes/camiseta-sin-mangas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Licra",
+                                "image": "/assets/icon/sports-clothes/licra.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Medias",
+                                "image": "/assets/icon/sports-clothes/medias-largas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Pantalon deportivo",
+                                "image": "/assets/icon/sports-clothes/pantalon-deportivo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Short",
+                                "image": "/assets/icon/sports-clothes/short.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 1,
+                        "name": "Equipo deportivo",
+                        "image": "/assets/icon/iconsFake/equipo-deportivo.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Balón de baloncesto",
+                                "image": "/assets/icon/equipment/baloncesto.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Balón de beisbol",
+                                "image": "/assets/icon/equipment/beisbol.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Balón de futbol",
+                                "image": "/assets/icon/equipment/futbol.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Balón de soccer",
+                                "image": "/assets/icon/equipment/soccer.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Balón de tenis",
+                                "image": "/assets/icon/equipment/tenis.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Bate de beisbol",
+                                "image": "/assets/icon/equipment/bate-beisbol.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Canasta",
+                                "image": "/assets/icon/equipment/canasta.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Casco",
+                                "image": "/assets/icon/equipment/casco.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Conos",
+                                "image": "/assets/icon/equipment/cono.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Palo de golf",
+                                "image": "/assets/icon/equipment/palos-golf.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 10,
+                                "name": "Raqueta",
+                                "image": "/assets/icon/equipment/raqueta-tenis.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 2,
+                        "name": "Calzado",
+                        "image": "/assets/icon/iconsFake/calzado-deportivo.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Zapatos para beisbol",
+                                "image": "/assets/icon/sports-shoes/zapatos-beisbol.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Zapatos para boliche",
+                                "image": "/assets/icon/sports-shoes/zapatos-boliche.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Zapatos para correr",
+                                "image": "/assets/icon/sports-shoes/zapatos-correr.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Zapatos para patinar",
+                                "image": "/assets/icon/sports-shoes/zapatos-patinar.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Zapatos para patinar sobre hielo",
+                                "image": "/assets/icon/sports-shoes/zapatos-hielo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Zapatos para soccer",
+                                "image": "/assets/icon/sports-shoes/zapatos-soccer.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "catId": 6,
+                "name": "Linea blanca",
+                "image": "/assets/icon/iconsFake/electrodomestico.png",
+                "subcategories":[
+                    {
+                        "subId": 0,
+                        "name": "Enfriadores",
+                        "image": "/assets/icon/iconsFake/enfriadores.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Congelador",
+                                "image": "/assets/icon/cooler/congelador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Dispensador de agua",
+                                "image": "/assets/icon/cooler/dispensador-agua.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Hielera",
+                                "image": "/assets/icon/cooler/hielera.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Refrigerador",
+                                "image": "/assets/icon/cooler/refrigerador.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 1,
+                        "name": "Calefacción",
+                        "image": "/assets/icon/iconsFake/calefaccion.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Aire acondicionado",
+                                "image": "/assets/icon/heater/aire-acondicionado.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Calentador",
+                                "image": "/assets/icon/heater/calentador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Calentador portátiles",
+                                "image": "/assets/icon/heater/calentador-portatil.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 2,
+                        "name": "Lavandería",
+                        "image": "/assets/icon/iconsFake/lavanderia.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Lavadora",
+                                "image": "/assets/icon/laundry/lavadora.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Plancha",
+                                "image": "/assets/icon/laundry/plancha.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Secadora",
+                                "image": "/assets/icon/laundry/secadora.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Vaporera de planchar",
+                                "image": "/assets/icon/laundry/plancha-vapor.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "catId": 7,
+                "name": "Electrónica",
+                "image": "/assets/icon/iconsFake/electronica.png",
+                "subcategories":[
+                    {
+                        "subId": 0,
+                        "name": "Computación",
+                        "image": "/assets/icon/iconsFake/computadora.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Computadora de escritorio",
+                                "image": "/assets/icon/computer/compu-escritorio.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Disco duro",
+                                "image": "/assets/icon/computer/disco-duro.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Disco duro solido",
+                                "image": "/assets/icon/computer/disco-solido.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Gabinete",
+                                "image": "/assets/icon/computer/gabinete.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Laptop",
+                                "image": "/assets/icon/computer/laptop.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Memoria flash",
+                                "image": "/assets/icon/computer/memoria-flash.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Memoria RAM",
+                                "image": "/assets/icon/computer/memoria-ram.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Micrófono",
+                                "image": "/assets/icon/computer/microfono.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Monitor",
+                                "image": "/assets/icon/computer/monitor.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 9,
+                                "name": "Mouse",
+                                "image": "/assets/icon/computer/mouse.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 10,
+                                "name": "Procesador",
+                                "image": "/assets/icon/computer/procesador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 11,
+                                "name": "Tarjeta gráfica",
+                                "image": "/assets/icon/computer/tarjeta-grafica.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 12,
+                                "name": "Tarjeta madre",
+                                "image": "/assets/icon/computer/tarjeta-madre.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 13,
+                                "name": "Teclado",
+                                "image": "/assets/icon/computer/teclado.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 14,
+                                "name": "Ventilador",
+                                "image": "/assets/icon/computer/ventilador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 15,
+                                "name": "Webcam",
+                                "image": "/assets/icon/computer/webcam.png",
+                                "typeAmount": "unidad"
+                            } 
+                        ]
+                    },
+                    {
+                        "subId": 1,
+                        "name": "Videojuegos",
+                        "image": "/assets/icon/iconsFake/videojuegos.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Consola de videojuegos",
+                                "image": "/assets/icon/videogames/consola-video.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Consola portátil",
+                                "image": "/assets/icon/videogames/consola-portatil.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Control",
+                                "image": "/assets/icon/videogames/control.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Videojuego físico",
+                                "image": "/assets/icon/videogames/videojuego.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 2,
+                        "name": "Celulares y tabletas",
+                        "image": "/assets/icon/iconsFake/celulares.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Cargador",
+                                "image": "/assets/icon/cellphone/cargador-telefono.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Celular",
+                                "image": "/assets/icon/cellphone/celular.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Funda protectora",
+                                "image": "/assets/icon/cellphone/funda-telefono.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Llavero",
+                                "image": "/assets/icon/cellphone/llavero.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Protector de pantalla",
+                                "image": "/assets/icon/cellphone/pantalla-protector.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Tableta",
+                                "image": "/assets/icon/cellphone/tableta.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 3,
+                        "name": "Televisores",
+                        "image": "/assets/icon/iconsFake/television.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Antena",
+                                "image": "/assets/icon/tv/antena.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Control",
+                                "image": "/assets/icon/tv/control.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Televisión",
+                                "image": "/assets/icon/tv/television.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 4,
+                        "name": "Cámaras",
+                        "image": "/assets/icon/iconsFake/camara.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Cámara de bolsillo",
+                                "image": "/assets/icon/cam/camara-bolsillo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Cámara fotográfica",
+                                "image": "/assets/icon/cam/camara.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Flash para cámara",
+                                "image": "/assets/icon/cam/flash.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Lente para cámara",
+                                "image": "/assets/icon/cam/lente.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Trípode",
+                                "image": "/assets/icon/cam/tripode.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 5,
+                        "name": "Audio",
+                        "image": "/assets/icon/iconsFake/audio.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Audífonos",
+                                "image": "/assets/icon/audio/audifonos.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Audífonos inalámbricos",
+                                "image": "/assets/icon/audio/audifonos-inalambricos.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Auriculares",
+                                "image": "/assets/icon/audio/auriculares.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Auriculares deportivos",
+                                "image": "/assets/icon/audio/auriculares-deportivos.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Auriculares inalámbricos",
+                                "image": "/assets/icon/audio/auriculares-inalambricos.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Bocinas",
+                                "image": "/assets/icon/audio/bocina.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Bocinas inalámbricas",
+                                "image": "/assets/icon/audio/bocina-inalambrica.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Teatro en casa",
+                                "image": "/assets/icon/audio/home-theater.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 6,
+                        "name": "Video",
+                        "image": "/assets/icon/iconsFake/video.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Reproductor de Blu-ray",
+                                "image": "/assets/icon/video/reproductor-dvd.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Reproductor de DVD",
+                                "image": "/assets/icon/video/reproductor-dvd.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Reproductor multimedia",
+                                "image": "/assets/icon/video/reproductor-dvd.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "catId": 8,
+                "name": "Farmacia",
+                "image": "/assets/icon/iconsFake/farmacia.png",
+                "subcategories":[
+                    {
+                        "subId": 0,
+                        "name": "Medicamentos",
+                        "image": "/assets/icon/iconsFake/medicamento.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Medicamento para bajar de peso",
+                                "image": "/assets/icon/medicine/pastillas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Medicamento para cólicos",
+                                "image": "/assets/icon/medicine/pastillas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Medicamento para dolor de cabeza",
+                                "image": "/assets/icon/medicine/pastillas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Medicamento para dolor muscular",
+                                "image": "/assets/icon/medicine/pastillas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Medicamento para dormir",
+                                "image": "/assets/icon/medicine/pastillas-dormir.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Medicamento para el estomago",
+                                "image": "/assets/icon/medicine/pastillas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Medicamento para la gripe",
+                                "image": "/assets/icon/medicine/pastillas.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 1,
+                        "name": "Vitaminas",
+                        "image": "/assets/icon/iconsFake/vitaminas.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Multivitamínico",
+                                "image": "/assets/icon/vitamin/vitaminas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Omega 3",
+                                "image": "/assets/icon/vitamin/omegas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Omega 6",
+                                "image": "/assets/icon/vitamin/omegas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Omega 9",
+                                "image": "/assets/icon/vitamin/omegas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Vitamina A",
+                                "image": "/assets/icon/vitamin/vitaminas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Vitamina B",
+                                "image": "/assets/icon/vitamin/vitaminas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Vitamina B12",
+                                "image": "/assets/icon/vitamin/vitaminas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Vitamina C",
+                                "image": "/assets/icon/vitamin/vitaminas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Vitamina D",
+                                "image": "/assets/icon/vitamin/vitaminas.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 2,
+                        "name": "Equipo médico",
+                        "image": "/assets/icon/iconsFake/equipo-medico.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Cubrebocas",
+                                "image": "/assets/icon/medic/cubrebocas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Desfibrilador",
+                                "image": "/assets/icon/medic/desfibrilador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "ECG",
+                                "image": "/assets/icon/medic/ecg.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Esterilizadores",
+                                "image": "/assets/icon/medic/esterilizadores.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Guantes",
+                                "image": "/assets/icon/medic/guantes.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Jeringa",
+                                "image": "/assets/icon/medic/jeringa.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Luces quirófano",
+                                "image": "/assets/icon/medic/luces.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Palillos",
+                                "image": "/assets/icon/medic/palillos.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 8,
+                                "name": "Ultrasonido",
+                                "image": "/assets/icon/medic/ultrasonido.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 3,
+                        "name": "Ungüentos",
+                        "image": "/assets/icon/iconsFake/unguento.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Crema para acné",
+                                "image": "/assets/icon/cream/unguento.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Crema para dolor muscular",
+                                "image": "/assets/icon/cream/unguento.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Crema para hongos",
+                                "image": "/assets/icon/cream/unguento.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Crema para urticaria",
+                                "image": "/assets/icon/cream/unguento.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "catId": 9,
+                "name": "Cuidado personal",
+                "image": "/assets/icon/iconsFake/cuidado-personal.png",
+                "subcategories":[
+                    {
+                        "subId": 0,
+                        "name": "Corporal",
+                        "image": "/assets/icon/iconsFake/corporal.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Cepillo",
+                                "image": "/assets/icon/body/cepillo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Cepillo para dientes",
+                                "image": "/assets/icon/body/cepillo-dientes.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Cremas",
+                                "image": "/assets/icon/body/crema.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Dentífrico",
+                                "image": "/assets/icon/body/pasta-dientes.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Esponja",
+                                "image": "/assets/icon/body/esponja.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Gel antibacterial",
+                                "image": "/assets/icon/body/gel-antibacterial.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Jabón de barra",
+                                "image": "/assets/icon/body/jabon-barra.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 7,
+                                "name": "Jabón liquido",
+                                "image": "/assets/icon/body/jabon-liquido.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 1,
+                        "name": "Cabello",
+                        "image": "/assets/icon/iconsFake/cabello.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Acondicionador",
+                                "image": "/assets/icon/hair/acondicionador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Cepillo",
+                                "image": "/assets/icon/hair/cepillo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Fijador",
+                                "image": "/assets/icon/hair/fijador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Jabón para cabello",
+                                "image": "/assets/icon/hair/shampoo.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Tintes",
+                                "image": "/assets/icon/hair/tinte.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 2,
+                        "name": "Afeitado",
+                        "image": "/assets/icon/iconsFake/afeitado.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Crema para afeitar",
+                                "image": "/assets/icon/beard/crema-afeitar.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Maquina para rasurar",
+                                "image": "/assets/icon/beard/maquinilla-afeitar.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Navaja",
+                                "image": "/assets/icon/beard/navaja.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Rastrillo",
+                                "image": "/assets/icon/beard/rastrillo.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 3,
+                        "name": "Facial",
+                        "image": "/assets/icon/iconsFake/facial.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Cremas",
+                                "image": "/assets/icon/face/crema.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Exfoliantes",
+                                "image": "/assets/icon/face/exfoliante.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Limpiadores",
+                                "image": "/assets/icon/face/limpiador-cara.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Mascarillas",
+                                "image": "/assets/icon/face/mascarilla.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    },
+                    {
+                        "subId": 4,
+                        "name": "Cosméticos",
+                        "image": "/assets/icon/iconsFake/cosmeticos.png",
+                        "articles": [
+                            {
+                                "artId": 0,
+                                "name": "Brocha para maquillaje",
+                                "image": "/assets/icon/makeup/brocha.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 1,
+                                "name": "Delineador",
+                                "image": "/assets/icon/makeup/delineador.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 2,
+                                "name": "Lápiz labial",
+                                "image": "/assets/icon/makeup/labial.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 3,
+                                "name": "Maquillaje",
+                                "image": "/assets/icon/makeup/maquillaje.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 4,
+                                "name": "Máscara para pestañas",
+                                "image": "/assets/icon/makeup/mascara-pestañas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 5,
+                                "name": "Pintura para uñas",
+                                "image": "/assets/icon/makeup/pintura-unas.png",
+                                "typeAmount": "unidad"
+                            },
+                            {
+                                "artId": 6,
+                                "name": "Sombras para ojos",
+                                "image": "/assets/icon/makeup/sombras-ojos.png",
+                                "typeAmount": "unidad"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "catId": 10,
+                "name": "Otros",
+                "image": "/assets/icon/others/carrito.png"
+            }
+        ]
+    },
+    "page3":
+    {
+        "pageId": 2,
+        "name": "Configuración",
+        "settings": [
+            {
+                "settingsId": 0,
+                "name": "Idioma",
+                "image": "language-outline",
+                "languages":[
+                {
+                    "languageId": 0,
+                    "name": "Español"
+                },
+                {
+                    "languageId": 1,
+                    "name": "Inglés"
+                },
+                {
+                "languageId": 2,
+                "name": "Francés"
+                }
+                ]
+            },
+            {
+                "settingsId": 1,
+                "name": "Modo oscuro",
+                "image":"contrast-outline"
+            },
+            {
+                "settingsId": 2,
+                "name": "Acerca de",
+                "image": "help-outline",
+                "data": [
+                    {
+                        "dataId": 0,
+                        "name": "Desarrolado por:",
+                        "value": "Trixx Co."
+                    },
+                    {
+                        "dataId": 1,
+                        "name": "Dirigido por:",
+                        "value": "Octavio Gastelum"
+                    },
+                    {
+                        "dataId": 2,
+                        "name": "Politicas de privacidad",
+                        "value": "<p>Proteger tu privacidad es importante y fundamental para nosotros. Esperamos que la siguiente declaración lo ayude a comprender cómo nuestra aplicación maneja la información de identificación personal ('PII').</p><p>En general, no recopilamos su PII cuando descarga nuestra aplicación. Para ser específicos, no requerimos que los consumidores se registren antes de descargar la aplicación, ni hacemos un seguimiento de las visitas de los consumidores a nuestra aplicación, ni siquiera tenemos un servidor para almacenar dicha PII.</p><h6>Informacion que recopilamos</h6><p>Cookies - La aplicación guarda configuraciones que el usuario final quiera hacer en la aplicación, por ejemplo, modo obscuro e idioma. En ningun momento te pediermos tus datos personales para ingresar o solicitar algun servicio de la aplicación</p><h6>¿Cómo utilizamos y informacion?</h6><p>Con lo descrito anteriormente, su información personal está segura y no tiene ningún riesgo de que sus datos sean expuestos. Por el momento, no pediremos datos personales, pero en un futuro quizás sea requieran para guardar datos en una base de datos en la nube y tener un servicio en línea. En general, puede estar atento en todos nuestros contactos oficiales de algún cambio en el servicio.</p>"
+                    },
+                    {
+                        "dataId": 3,
+                        "name": "Licencias",
+                        "value": "<ul><li>© 2020 Ionic</li><li>© 2010-2021 Freepik Company S.L. y sus autores</li></ul>"
+                    }
+                ]
+            },
+            {
+                "settingsId": 3,
+                "name": "Moneda",
+                "image": "cash-outline",
+                "money":[
+                    {
+                        "moneyId": 0,
+                        "name": "Peso",
+                        "sign": "$"
+                    },
+                    {
+                        "moneyId": 1,
+                        "name": "Dólar",
+                        "sign": "$"
+                    },
+                    {
+                        "moneyId": 2,
+                        "name": "Euro",
+                        "sign": "Є"
+                    }
+                ]
+            },
+            {
+                "settingsId": 4,
+                "name": "Dimensiones",
+                "image": "",
+                "dimensions":[
+                    {
+                        "dimensionId": 0,
+                        "name": "Kilogramo",
+                        "sign": "kg"
+                    },
+                    {
+                        "dimensionId": 1,
+                        "name": "Gramo",
+                        "sign": "gr"
+                    },
+                    {
+                        "dimensionId": 2,
+                        "name": "Litro",
+                        "sign": "lt"
+                    },
+                    {
+                        "dimensionId": 3,
+                        "name": "Galón",
+                        "sign": "gal"
+                    },
+                    {
+                        "dimensionId": 4,
+                        "name": "Centímetros",
+                        "sign": "cm"
+                    },
+                    {
+                        "dimensionId": 5,
+                        "name": "Metros",
+                        "sign": "m"
+                    },
+                    {
+                        "dimensionId": 6,
+                        "name": "Unidad",
+                        "sign": "pz"
+                    }
+                ]
+            }
+        ]
+    },
+    "page4":
+    {
+        "pageId": 3,
+        "name": "Textos alertas",
+        "confirmButton": "Aceptar",
+        "cancelButton": "Cancelar",
+        "saveButton": "Guardar",
+        "deleteButton": "Eliminar",
+        "search": "Buscar...",
+        "returnButton": "Regresar",
+        "noListLabel": "Comienza creando listas de lo que mas necesitas 🙂",
+        "alerts": 
+        [
+            {
+                "alertId": 0,
+                "header": "Nueva lista",
+                "subtitle": "Ingrese nombre para la nueva lista",
+                "placeholder": "Ingrese nombre"
+            },
+            {
+                "alertId": 1,
+                "header": "Confirmación",
+                "subtitle": "¿Está seguro de guardar estos articulos a la lista?",
+                "confirmMessage": "Los articulos fueron guardados con éxito en tu lista",
+                "cancelButton": "Hubo un error inesperado intenta de nuevo o contacta a soporte técnico"
+            },
+            {
+                "alertId": 2,
+                "header": "Error con la lista",
+                "subtitle": "Ingrese articulos para la lista"
+            },
+            {
+                "alertId": 3,
+                "header": "Error con la lista",
+                "subtitle": "Ingrese un nombre para la lista"
+            },
+            {
+                "alertId": 4,
+                "header": "Error con la lista",
+                "subtitle": "Ingrese datos faltantes a los articulos o corrija sus datos"
+            },
+            {
+                "alertId": 5,
+                "header": "Advertencia con la lista",
+                "subtitle": "Algunos articulos ya estan en la lista, aparecerán si deseas modificarlos"
+            },
+            {
+                "alertId": 6,
+                "header": "Lista guardada",
+                "subtitle": "Los articulos para tu lista fueron guardados con éxito"
+            },
+            {
+                "alertId": 7,
+                "header": "Error con la lista",
+                "subtitle": "La lista con ese nombre ya existe"
+            },
+            {
+                "alertId": 8,
+                "header": "Confirmación",
+                "subtitle": "¿Está seguro de eliminar la lista?",
+                "confirmMessage": "La lista fue eliminada con éxito",
+                "cancelButton": "Hubo un error inesperado intenta de nuevo o contacta a soporte técnico"
+            },
+            {
+                "alertId": 9,
+                "header": "Confirmación",
+                "subtitle": "¿Está seguro de eliminar el articulo de la lista?",
+                "confirmMessage": "El articulo de la lista fue eliminada con éxito",
+                "cancelButton": "Hubo un error inesperado intenta de nuevo o contacta a soporte técnico"
+            },
+            {
+                "alertId": 10,
+                "header": "Nuevo articulo",
+                "subtitle": "Ingrese datos para el nuevo articulo"
+            },
+            {
+                "alertId": 11,
+                "header": "Peso",
+                "subtitle": "Precio",
+                "confirmMessage": "Longitud",
+                "cancelButton": "Volumen"
+            },
+            {
+                "alertId": 12,
+                "header": "Longitud",
+                "subtitle": "Unidad"
+            },
+            {
+                "alertId": 13,
+                "header": "Seleccione volumen",
+                "subtitle": "Seleccione unidad de medición",
+                "placeholder": "Seleccione tipo de moneda"
+            }
+        ],
+        "intro":
+        [
+            {
+                "introId": 0,
+                "h1": "Bienvenido a Shopylist",
+                "p": "Shopylist es una aplicación para hacer listas de tus compras en tus tiendas de conveniencia habituales.",
+                "img": "/assets/icon/intro/logo-obscuro.png"
+            },
+            {
+                "introId": 1,
+                "h1": "Crea listas a tus necesidades",
+                "p": "Selecciona entre una gran variedad de articulos y ajustandolos a tus necesidades de precio y cantidad deseada.",
+                "img": "/assets/icon/intro/lista.png"
+            },
+            {
+                "introId": 2,
+                "h1": "¿Qué esperas? Comienza tu aventura",
+                "p": "Comenzar",
+                "img": "/assets/icon/intro/shopping.png"
+            }
+        ] 
+    }
+}
