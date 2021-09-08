@@ -13,8 +13,8 @@ export class IntroPage implements OnInit {
 app: App;
 textos: Page4;
 
-  constructor(private idioma: LanguageService, private route: Router) {
-  }
+  constructor(private idioma: LanguageService,
+              private route: Router) { }
 
   ngOnInit() {
     this.app = this.idioma.getApp();

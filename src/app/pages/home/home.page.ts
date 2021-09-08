@@ -19,10 +19,9 @@ export class HomePage implements OnInit, AfterViewInit{
 
   constructor(private idioma: LanguageService,
               private modalCtrl: ModalController,
-              private animationCtrl: AnimationController) { }
+              private animationCtrl: AnimationController) {}
 
-  ngOnInit(): void { 
-  }
+  ngOnInit(): void {  }
 
   ngAfterContentChecked(): void {
     //Called after every check of the component's or directive's content.

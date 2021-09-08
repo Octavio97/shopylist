@@ -6,6 +6,8 @@ import { Lista } from '../models/lista.model';
 import { Router } from '@angular/router';
 import { ArticuloLista } from '../models/artLista.model';
 import { TranslateService } from '@ngx-translate/core';
+import { SplashScreen } from '@ionic-native/splash-screen/ngx';
+import { ScreenOrientation } from '@ionic-native/screen-orientation/ngx';
 
 @Injectable({
   providedIn: 'root'
@@ -14,7 +16,12 @@ export class LanguageService{
 app: App = { language: 1, darkMode: false, tutorial: true };
 list: Lista[] = [];
 
-    constructor(private file: File, private plt: Platform, private route: Router, private translate: TranslateService) {  }
+    constructor(private file: File,
+                private plt: Platform,
+                private route: Router,
+                private translate: TranslateService,
+                private splashScreen: SplashScreen,
+                private screenOrientation: ScreenOrientation) {  }
 
     setAppLanguage(i: number){
         switch (i) {
@@ -58,7 +65,8 @@ list: Lista[] = [];
         // si hay una carpeta sobreescribe en el archivo existente de configuracion
         this.file.writeExistingFile(this.file.dataDirectory + 'data/', file, JSON.stringify(value))
         .then(res => {
-            this.loadData();
+            // this.loadData();
+            this.readFile(file);
         })
         // ver error al escribir archivo de configuracion existente
         .catch(err => {
@@ -70,11 +78,13 @@ list: Lista[] = [];
     loadData() {
         this.plt.ready()
         .then(() => {
+            this.screenOrientation.lock(this.screenOrientation.ORIENTATIONS.PORTRAIT);
             this.file.listDir(this.file.dataDirectory, 'data')
             .then(res => {
                 this.readFile('app.json');
                 this.readFile('list.json');
                 this.route.navigateByUrl('/home');
+                this.splashScreen.hide();
             })
             .catch(err => {
                 // crea una carpeta con el nombre data
@@ -83,6 +93,7 @@ list: Lista[] = [];
                     this.writeFile('app.json', JSON.stringify(this.app));
                     this.writeFile('list.json', JSON.stringify(this.list));
                     this.route.navigateByUrl('/intro');
+                    this.splashScreen.hide();
                 })
                 // error al crear directorio
                 .catch(err => {

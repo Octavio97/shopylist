@@ -11,6 +11,7 @@ import { File } from '@ionic-native/file/ngx';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { ScreenOrientation } from '@ionic-native/screen-orientation/ngx';
 
 export function createTranslateLoader(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/texts/', '.json');
@@ -27,7 +28,7 @@ export function createTranslateLoader(http: HttpClient) {
     }
   })],
   exports: [ AppRoutingModule, TranslateModule ],
-  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, File , SplashScreen],
+  providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }, File , SplashScreen, ScreenOrientation],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

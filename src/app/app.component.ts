@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { SplashScreen } from '@ionic-native/splash-screen/ngx';
-import { Platform } from '@ionic/angular';
+import { LanguageService } from './services/language.service';
 
 @Component({
   selector: 'app-root',
@@ -9,12 +8,9 @@ import { Platform } from '@ionic/angular';
 })
 export class AppComponent {
   
-  constructor(private platform: Platform,
-              private splashScreen: SplashScreen) { this.initializeApp(); }
+  constructor(private idioma: LanguageService) { this.initializeApp(); }
 
     initializeApp() {
-      this.platform.ready().then(() => {
-        this.splashScreen.hide();
-      });
+      this.idioma.loadData();
     }
 }
