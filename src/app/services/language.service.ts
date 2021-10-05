@@ -65,7 +65,6 @@ list: Lista[] = [];
         // si hay una carpeta sobreescribe en el archivo existente de configuracion
         this.file.writeExistingFile(this.file.dataDirectory + 'data/', file, JSON.stringify(value))
         .then(res => {
-            // this.loadData();
             this.readFile(file);
         })
         // ver error al escribir archivo de configuracion existente
@@ -93,7 +92,7 @@ list: Lista[] = [];
                     this.writeFile('app.json', JSON.stringify(this.app));
                     this.writeFile('list.json', JSON.stringify(this.list));
                     this.route.navigateByUrl('/intro');
-                    this.splashScreen.hide();
+                    // this.splashScreen.hide();
                 })
                 // error al crear directorio
                 .catch(err => {
@@ -115,6 +114,7 @@ list: Lista[] = [];
             else if (file === 'list.json') {
                 this.list = JSON.parse(res);
             }
+            this.splashScreen.hide();
         })
         .catch(error => {
             console.log('Error al leer el archivo ' + file , error);

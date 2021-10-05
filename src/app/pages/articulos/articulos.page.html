@@ -9,7 +9,7 @@
   <ion-content>
     <!-- Lista de articulos -->
     <div #card class="card">
-      <ion-list>
+      <!-- <ion-list>
         <ion-virtual-scroll [items]="'page2.categories.' + this.id + '.subcategories.' + this.id2 + '.articles' | translate | filtro: textoBuscar: 'name'">
           <ion-item *virtualItem="let item">
             <ion-img slot="start" [src]="item.image" alt="fv" style="width: 24px; height: 24px;"></ion-img>
@@ -17,6 +17,13 @@
             <ion-checkbox color="tertiary" (ionChange)="datosLista($event, item)"></ion-checkbox>
           </ion-item>
         </ion-virtual-scroll>
+      </ion-list> -->
+      <ion-list>
+        <ion-item *ngFor="let item of 'page2.categories.' + this.id + '.subcategories.' + this.id2 + '.articles' | translate | filtro: textoBuscar: 'name'">
+          <ion-img slot="start" [src]="item.image" alt="fv" style="width: 24px; height: 24px;"></ion-img>
+            <ion-label>{{ item.name }}</ion-label>
+            <ion-checkbox color="tertiary" (ionChange)="datosLista($event, item)"></ion-checkbox>
+        </ion-item>
       </ion-list>
     </div>
    
